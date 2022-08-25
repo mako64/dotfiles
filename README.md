@@ -8,7 +8,8 @@
     - キーボードのNumLockをコントロールキーに割り当てる
 ## .zprofile
 ```
-eval $(/opt/homebrew/bin/brew shellenv
+eval $(/opt/homebrew/bin/brew shellenv)
+export PATH=$HOME/bin:$PATH
 ```
 
 ## Homebrewのインストール
@@ -20,4 +21,4 @@ eval $(/opt/homebrew/bin/brew shellenv
 sudo softwareupdate --install-rosetta
 ```
 
-
+- [asdf plugins](asdf-plugins.md)
