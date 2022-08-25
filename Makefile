@@ -5,3 +5,6 @@ install:
 
 mitamae:
 	./get-mitamae.sh
+
+rosetta:
+	./inst-rosetta2.sh

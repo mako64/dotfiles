@@ -15,4 +15,9 @@ eval $(/opt/homebrew/bin/brew shellenv
 
 ## `xcode-select --install`
 
+## Rosetta2のインストール
+```
+sudo softwareupdate --install-rosetta
+```
+
 
