@@ -22,3 +22,7 @@ sudo softwareupdate --install-rosetta
 ```
 
 - [asdf plugins](asdf-plugins.md)
+
+## Alfred 4はhomebrewでインストールできない
+Alfred 5がリリースされているためか、homebrewでインストールできない。
+

@@ -1,0 +1,10 @@
+---
+user: makoto
+packages:
+- git
+- mas
+- wget
+apps:
+- appcleaner
+mas:
+- 1333542190	# 1Password
