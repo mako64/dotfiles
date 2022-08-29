@@ -6,5 +6,10 @@ packages:
 - wget
 apps:
 - appcleaner
+- google-chrome
 mas:
-- 1333542190	# 1Password
+#- 1333542190	# 1Password
+- 937984704	# Amphetamine
+- 1352778147	# Bitwarden
+- 904280696	# Things
+- 457622435	# Yoink
