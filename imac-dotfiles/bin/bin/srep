@@ -1,0 +1,11 @@
+#!/bin/bash
+PROJECT=xxx
+UPPER=`tr '[a-z]' '[A-Z]' <<< $PROJECT`
+cat << EOD > rep.sed
+s/'_s'/'${PROJECT}'/g
+s/_s_/${PROJECT}_/g
+s/Text Domain: _s_/Text Domain: ${PROJECT}/g
+s/ _s/ ${UPPER}/g
+s/_s-/${PROJECT}-/g
+EOD
+sed -f rep.sed $1

@@ -1,0 +1,14 @@
+[user]
+	name = Makoto Saito
+	email = saitomako@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ci = commit
+[init]
+	defaultBranch = main

@@ -1,0 +1,6 @@
+#!/bin/bash
+curl 'https://app.cotogoto.ai/webapi/noby.json' \
+  --verbose \
+  --get \
+  --data "text=$1" \
+  --data 'appkey=22b494f039914e4dae3d6cdb5e5e8efb'

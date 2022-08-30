@@ -1,0 +1,2 @@
+#!/bin/bash
+textutil -convert txt $1

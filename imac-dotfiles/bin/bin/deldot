@@ -1,0 +1,3 @@
+#!/bin/bash
+find $1 -name ".git" -exec rm -fr {} \;
+find $1 -name "node_modules" -exec rm -fr {} \;

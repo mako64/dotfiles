@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ -e gomi.txt ]; then
+  cat gomi.txt | sed 's/ $//' | sed '/^$/d'
+fi

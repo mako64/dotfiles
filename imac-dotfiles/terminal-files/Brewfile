@@ -1,0 +1,28 @@
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "rcmdnk/file"
+brew "cask"
+brew "dnsmasq", restart_service: true
+brew "easyengine"
+brew "hugo"
+brew "mas"
+brew "nodebrew"
+brew "pyenv"
+brew "rbenv"
+brew "rename"
+brew "tmux"
+brew "tree"
+brew "wget"
+brew "yarn"
+cask "fsnotes"
+mas "Bilingual News", id: 1033074719
+mas "Cloud Outliner Pro", id: 1024917449
+mas "ComicViewer", id: 1455702185
+mas "iBooks Author", id: 490152466
+mas "Kindle", id: 405399194
+mas "Magnet", id: 441258766
+mas "Tayasui Sketches", id: 1178074963
+mas "Todoist", id: 585829637

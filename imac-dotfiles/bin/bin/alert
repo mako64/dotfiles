@@ -1,0 +1,7 @@
+#!/usr/bin/osascript -l JavaScript
+
+function run(argv) {
+  let app = Application("System Events");
+  app.includeStandardAdditions = true;
+  app.displayDialog(JSON.stringify(argv));
+}

@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -av /Volumes/RAOYI/macHDD/$1/ ~/RAOYI/macHDD/$1

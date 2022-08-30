@@ -1,0 +1,4 @@
+# 大文字・小文字を区別しない
+set completion-ignore-case on
+
+set bell-style none

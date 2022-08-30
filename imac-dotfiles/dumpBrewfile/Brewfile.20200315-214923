@@ -1,0 +1,85 @@
+tap "adoptopenjdk/openjdk"
+tap "alexanderwillner/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "sachaos/todoist"
+brew "openssl@1.1"
+brew "cask"
+brew "dnsmasq", restart_service: true
+brew "enscript"
+brew "exiftool"
+brew "ghostscript"
+brew "gnu-sed"
+brew "graphicsmagick"
+brew "html2text"
+brew "hugo"
+brew "imagemagick"
+brew "mas"
+brew "nodebrew"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "ruby-build"
+brew "rbenv"
+brew "rename"
+brew "stow"
+brew "tmux"
+brew "tree"
+brew "wget"
+brew "yarn"
+brew "alexanderwillner/tap/things.sh"
+brew "sachaos/todoist/todoist"
+cask "adoptopenjdk8"
+cask "appcleaner"
+cask "atom"
+cask "evernote"
+cask "fsnotes"
+cask "google-chrome"
+cask "mi"
+cask "typora"
+mas "Bear", id: 1091189122
+mas "Bilingual News", id: 1033074719
+mas "Bilingual News", id: 1033074719
+mas "ComicViewer", id: 1455702185
+mas "ComicViewer", id: 1455702185
+mas "Down in Bermuda", id: 1446829310
+mas "Fotor Photo Editor", id: 503039729
+mas "Image2icon", id: 992115977
+mas "Image2icon", id: 992115977
+mas "Image2icon", id: 992115977
+mas "Kindle", id: 405399194
+mas "Kindle", id: 405399194
+mas "LINE", id: 539883307
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "Magnet", id: 441258766
+mas "MapEditor", id: 536205924
+mas "MapEditor", id: 536205924
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Mobile Mouse Server", id: 412814284
+mas "Monomals", id: 1457039491
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pages", id: 409201541
+mas "QR Journal", id: 483820530
+mas "Shinsekai Into the Depths", id: 1465860679
+mas "Simplenote", id: 692867256
+mas "Simplenote", id: 692867256
+mas "Simplenote", id: 692867256
+mas "Skitch", id: 425955336
+mas "Skitch", id: 425955336
+mas "Super Stickman Golf 3", id: 1071253172
+mas "Tayasui Sketches Pro", id: 1031566200
+mas "Tayasui Sketches Pro", id: 1031566200
+mas "Things", id: 904280696
+mas "Things", id: 904280696
+mas "Todoist", id: 585829637
+mas "Todoist", id: 585829637
+mas "TrackingTime", id: 967777543
+mas "VariousDaylife", id: 1471587613
+mas "WHAT THE GOLF", id: 1474771319
+mas "Xcode", id: 497799835
+mas "Xcode", id: 497799835

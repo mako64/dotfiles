@@ -1,0 +1,55 @@
+tap "adoptopenjdk/openjdk"
+tap "alexanderwillner/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "sachaos/todoist"
+brew "openssl@1.1"
+brew "cask"
+brew "dnsmasq", restart_service: true
+brew "enscript"
+brew "gnu-sed"
+brew "graphicsmagick"
+brew "html2text"
+brew "hugo"
+brew "imagemagick"
+brew "mas"
+brew "nodebrew"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "ruby-build"
+brew "rbenv"
+brew "rename"
+brew "stow"
+brew "tmux"
+brew "tree"
+brew "wget"
+brew "yarn"
+brew "alexanderwillner/tap/things.sh"
+brew "sachaos/todoist/todoist"
+cask "adoptopenjdk8"
+cask "appcleaner"
+cask "atom"
+cask "evernote"
+cask "fsnotes"
+cask "google-chrome"
+cask "mi"
+cask "typora"
+mas "Bear", id: 1091189122
+mas "Bilingual News", id: 1033074719
+mas "ComicViewer", id: 1455702185
+mas "deepClock", id: 460933482
+mas "Image2icon", id: 992115977
+mas "Kindle", id: 405399194
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "MapEditor", id: 536205924
+mas "Pages", id: 409201541
+mas "Simplenote", id: 692867256
+mas "Skitch", id: 425955336
+mas "Tayasui Sketches Pro", id: 1031566200
+mas "Things", id: 904280696
+mas "Todoist", id: 585829637
+mas "TrackingTime", id: 967777543
+mas "Xcode", id: 497799835

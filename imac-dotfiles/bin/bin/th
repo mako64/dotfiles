@@ -1,0 +1,35 @@
+#!/usr/bin/osascript
+
+property newline : "
+"
+
+on getlistwithname(listname)
+		tell application "Things3"
+				if (name of every area) contains listname then
+						return area listname
+				else if (name of every list) contains listname then
+						return list listname
+				else if (name of every project) contains listname then
+						return project listname
+				else
+						return missing value
+				end if
+		end tell
+end getlistwithname
+
+on run argv
+		if (count of argv) > 0 then
+				log item 1 of argv
+		else
+				log "no args"
+		end if
+
+		set target to my getlistwithname("インボックス")
+		if target is missing value then
+				return "not found インボックス"
+		else
+				return "found"
+		end if
+
+end run
+

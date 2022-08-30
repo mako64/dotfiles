@@ -1,0 +1,8 @@
+#!/usr/bin/osascript
+
+tell application "Things"
+    set inboxToDos to to dos of list "Inbox"
+    repeat with inboxToDo in inboxToDos
+        -- do something 
+    end repeat
+end tell

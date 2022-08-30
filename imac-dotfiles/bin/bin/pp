@@ -1,0 +1,2 @@
+#!/bin/bash
+enscript --line-numbers --columns=2 --landscape --tabsize=4 $1 -o ~/$1.ps

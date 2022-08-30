@@ -1,0 +1,11 @@
+#!/bin/bash
+cp -rf ~/mac-setup/dotfiles/Mackup ~/Dropbox/dotfiles/
+cp -rf ~/mac-setup/dotfiles/bin ~/Dropbox/dotfiles/
+cp -rf ~/mac-setup/dotfiles/mybash ~/Dropbox/dotfiles/
+cp ~/mac-setup/dotfiles/Makefile ~/Dropbox/dotfiles/
+cp ~/mac-setup/dotfiles/bash_profile ~/Dropbox/dotfiles/
+cp ~/mac-setup/dotfiles/bashrc ~/Dropbox/dotfiles/
+cp ~/mac-setup/dotfiles/conf.sh ~/Dropbox/dotfiles/
+cp ~/mac-setup/dotfiles/ssh.tgz ~/Dropbox/dotfiles/
+cp ~/mac-setup/dotfiles/symlink.sh~/Dropbox/dotfiles/
+cp ~/mac-setup/dotfiles/unlink.sh~/Dropbox/dotfiles/

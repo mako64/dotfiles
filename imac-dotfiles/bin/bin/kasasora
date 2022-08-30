@@ -1,0 +1,11 @@
+#!/bin/bash
+cat <<EOS > ~/kasasora/jekyll/_posts/`date "+%Y-%m-%d-$1.md"`
+---
+layout: post
+title: "$1"
+date: `date "+%Y-%m-%d %H:%M:%S +0900"`
+---
+## タイトル
+Hello, World
+EOS
+

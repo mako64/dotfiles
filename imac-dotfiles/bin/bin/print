@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+
+file=print.sh
+vim $(file) -c 'set popt=number:y | ha > tmp.ps | q'

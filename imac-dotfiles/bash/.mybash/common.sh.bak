@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Common rc file for Bash/Zsh
+
+_reset_path() { # Check if this is first time to read bashrc or not {{{
+  local p
+  for p in PATH LD_LIBRARY_PATH PYTHONPATH PKG_CONFIG_PATH; do
+    eval "local ip=\$INIT_$p"
+    if [[ -z "$ip" ]]; then
+      eval export INIT_$p="\$$p"
+      eval echo "\$$p"
+    else
+      eval export $p=\""$ip"\"
+      echo "set $p"
+    fi
+  done
+} # }}} Check if this is first time to read bashrc or not
+
+_reset_path
+

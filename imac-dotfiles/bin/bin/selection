@@ -1,0 +1,18 @@
+#!/usr/bin/osascript -l JavaScript
+
+const finder = Application('Finder');
+const getFullPath = (file) => {
+  const path = [];
+  while(true) {
+    name = file.name();
+    /* console.log(name); */
+    if(name === 'TS480GSS') {
+      break;
+    } else {
+      path.unshift(name);
+      file = file.container();
+    }
+  }
+  return '/' + path.join('/');;
+};
+finder.selection().map(getFullPath).join('\n');

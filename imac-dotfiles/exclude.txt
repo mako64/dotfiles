@@ -1,0 +1,6 @@
+.DS_Store
+.git
+package.json
+yarn.lock
+node_module
+known_hosts

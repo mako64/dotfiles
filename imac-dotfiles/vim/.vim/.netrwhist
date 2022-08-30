@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Volumes/macHDD/Users/makoto/Backup/Sites/jekyll-npo'
+let g:netrw_dirhist_8='/Users/makoto/Sites/config.zxfo.com'
+let g:netrw_dirhist_7='/Volumes/macHDD/www/hugo.zxfo.com/hugo-noah/layouts/partials'
+let g:netrw_dirhist_6='/Volumes/macHDD/www/itamae-noah/npo-noah/npo-noah.org'
+let g:netrw_dirhist_5='/Volumes/macHDD/www/itamae-noah/hugo/mysite/layouts'
+let g:netrw_dirhist_4='/Volumes/macHDD/www/itamae-indigo'
+let g:netrw_dirhist_3='/Volumes/macHDD/www/itamae-indigo/cookbooks/certbot'
+let g:netrw_dirhist_2='/Volumes/macHDD/www/itamae-conoha/cookbooks/httpd'
+let g:netrw_dirhist_1='/Volumes/macHDD/www/itamae-yorii/cookbooks/tripwire/files/etc/tripwire'
+let g:netrw_dirhist_0='/Volumes/macHDD/www/itamae-yorii/cookbooks/tripwire'

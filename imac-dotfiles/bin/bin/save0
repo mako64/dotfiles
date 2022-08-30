@@ -1,0 +1,5 @@
+#!/bin/bash
+#rsync -avh /Volumes/SSD480/Sites/ /Volumes/macHDD/Sites
+rsync -avh /Volumes/SSD480/Share/ /Volumes/macHDD/Share
+rsync -avh /Volumes/SSD480/Projects/ /Volumes/macHDD/Projects
+

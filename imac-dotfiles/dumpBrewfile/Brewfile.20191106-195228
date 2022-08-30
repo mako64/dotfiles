@@ -1,0 +1,37 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "cask"
+brew "dnsmasq", restart_service: true
+brew "hugo"
+brew "mas"
+brew "nodebrew"
+brew "pyenv"
+brew "rbenv"
+brew "rename"
+brew "stow"
+brew "tmux"
+brew "tree"
+brew "wget"
+brew "yarn"
+cask "appcleaner"
+cask "atom"
+cask "evernote"
+cask "fsnotes"
+cask "google-chrome"
+mas "Bilingual News", id: 1033074719
+mas "Cloud Outliner Pro", id: 1024917449
+mas "Don't Bug Me!", id: 1461998483
+mas "Kindle", id: 405399194
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "Microsoft OneNote", id: 784801555
+mas "Mini Motorways", id: 1456188526
+mas "Skitch", id: 425955336
+mas "Tayasui Sketches", id: 1178074963
+mas "The Get Out Kids", id: 1461998299
+mas "The Pinball Wizard", id: 1461998223
+mas "Things", id: 904280696
+mas "tint.", id: 1464860034
+mas "VariousDaylife", id: 1471587613

@@ -1,0 +1,3 @@
+#!/bin/bash
+cp -rf $1 /Volumes/Trancend-G/
+#ls -al /Volumes/Trancend-G

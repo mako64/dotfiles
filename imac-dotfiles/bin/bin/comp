@@ -1,0 +1,8 @@
+#!/bin/sh
+for dir in *; do
+  if [ -d ${dir} ]; then
+    if [ ! -e ${dir}.tgz ]; then
+      tar zcvf ${dir}.tgz ${dir}/
+    fi
+  fi
+done
